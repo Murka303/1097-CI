@@ -12,7 +12,7 @@ def driver_chrome():
     driver.get("https://my.proweb.uz/log-in")
     
     yield driver
-
+ 
     driver.quit()
 
 
